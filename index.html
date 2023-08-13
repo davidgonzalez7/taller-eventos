@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="eventos.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio Web</title>
 </head>
 <body>
-    <button id="saludarButton" onclick="mostrarAlerta()">Saludar</button>
+    <div id="buttonContainer" style="padding: 5px; background-color: green;">
+        <button id="saludarButton" onclick="mostrarAlerta()">Saludar</button>
+    </div>
 
     <script>
         function mostrarAlerta() {
